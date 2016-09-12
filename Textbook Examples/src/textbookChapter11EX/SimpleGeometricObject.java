@@ -3,17 +3,15 @@ package textbookChapter11EX;
 /**
  * Created by kkang on 9/10/2016.
  */
-public class SimpleGeometricObject
-{
-    private String color = "white";
-    private boolean filled;
+public class SimpleGeometricObject {
+    private String color = "black";
+    private boolean filled = true;
     private java.util.Date dateCreated;
 
     /**
      * Construct a default geometric object
      */
-    public SimpleGeometricObject()
-    {
+    public SimpleGeometricObject() {
         dateCreated = new java.util.Date();
     }
 
