@@ -1,40 +1,35 @@
 package Homework_12_5;
-
 /**
- * Created by kkang on 9/22/2016.
+ * Created by kyong kang on 9/21/2016.
+ * Homework 1 IS 247.
+ * Chapter 12.5
  */
-public class Triangle extends GeometricObject {
+public class Triangle extends SimpleGeometricObject {
     private double side1;
-
     private double side2;
-
     private double side3;
+
+    public Triangle() {
+        this.side1 = 1;
+        this.side2 = 1;
+        this.side3 = 1;
+    }
 
     public Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
         this.side1 = side1;
-
         this.side2 = side2;
-
         this.side3 = side3;
-
         isValidTriangle();
     }
-    public Triangle() {
-        this.side1 = 1;
 
-        this.side2 = 1;
-
-        this.side3 = 1;
-    }
-    @Override
-    public double getArea() {
+    public double getArea()
+    {
         double s = (side1 + side2 + side3) / 2.0;
-
         return Math.pow(s * (s - side1) * (s - side2) * (s - side3), 0.5);
-
     }
-    @Override
-    public double getPerimeter() {
+
+    public double getPerimeter()
+    {
         return side1 + side2 + side3;
     }
     @Override
