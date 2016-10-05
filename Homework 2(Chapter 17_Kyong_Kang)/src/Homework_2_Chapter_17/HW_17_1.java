@@ -35,8 +35,10 @@ public class HW_17_1
 // USING ANOTHER METHOD
 /**
  File f = new File("Exercise17_01.txt");
- try (PrintWriter printWriter = new PrintWriter(new BufferedOutputStream(new FileOutputStream(f, true))))
- {
+ try (PrintWriter printWriter =
+            new PrintWriter(
+                    new BufferedOutputStream(
+                            new FileOutputStream(f, true)))){
  for (int i = 0; i < 100; i++) {
  printWriter.write((int) (Math.random() * 100) + " ");
     }
