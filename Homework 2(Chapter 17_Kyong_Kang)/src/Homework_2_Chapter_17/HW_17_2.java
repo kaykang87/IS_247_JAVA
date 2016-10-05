@@ -11,7 +11,7 @@ import java.io.*;
  */
 public class HW_17_2 {
     public static void main(String[] args) throws IOException{
-        File f = new File("src/text files/Exercise17_02.dat");
+        File f = new File("Exercise17_02.dat");
         boolean append = f.exists();
 
 
