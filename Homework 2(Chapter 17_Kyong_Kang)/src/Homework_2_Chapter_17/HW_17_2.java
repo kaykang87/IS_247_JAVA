@@ -25,3 +25,9 @@ public class HW_17_2 {
         }
     }
 }
+/**
+ * File f = new File("Exercise17");
+ * FileOutputStream fileOut = new FileOutputStream(f, true);
+ * BufferedOutputStream buffer = new BufferOutputStream(fileOut);
+ * DataOutputStream outputStream = new DataOutputStream(buffer);
+ */
