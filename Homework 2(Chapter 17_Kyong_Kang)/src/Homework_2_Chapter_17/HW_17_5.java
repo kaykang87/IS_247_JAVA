@@ -11,15 +11,21 @@ import java.util.Date;
  * Write a program that stores an array of the five int
  * values 1, 2, 3, 4, and 5, a Date object for the current time,
  * and the double value 5.5 into the file named Exercise17_05.dat.
+ *
+ * This program prints object to the .dat file
  */
 public class HW_17_5 {
     public static void main(String[] args) throws IOException {
 
         int[] arrayNumbers = {1, 2, 3, 4, 5};
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("Exercise17_05.dat"))) {
+
+        FileOutputStream file = new FileOutputStream("Exercise17_05.dat");
+        ObjectOutputStream out = new ObjectOutputStream(file);
+
+//        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("Exercise17_05.dat"))) {
             out.writeObject(arrayNumbers);
             out.writeObject(new Date());
             out.writeDouble(5.5);
-        }
+//        }
     }
 }

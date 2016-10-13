@@ -12,6 +12,8 @@ import java.io.*;
  * has been created and its data are created using writeInt(int)
  * in DataOutputStream. The file contains an unspecified number
  * of integers. Write a program to find the sum of the integers.
+ *
+ * Prints out data using DataOutputStream and reads the Input.
  */
 public class HW_17_3 {
     public static void main(String[] args)throws IOException {
@@ -31,10 +33,14 @@ public class HW_17_3 {
             }
         }
 
-        try (DataInputStream input =
-                     new DataInputStream(
-                             new BufferedInputStream(
-                                     new FileInputStream(f)))) {
+        FileInputStream fileInputStream = new FileInputStream(f);
+        BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
+        DataInputStream input = new DataInputStream(bufferedInputStream);
+
+//        try (DataInputStream input =
+//                     new DataInputStream(
+//                             new BufferedInputStream(
+//                                     new FileInputStream(f)))) {
             int sum = 0;
 
             // divide the bytes into 4 to show available integer count
@@ -50,6 +56,6 @@ public class HW_17_3 {
                 count--;
             }
             System.out.println("The sum is " + sum);
-        }
+//        }
     }
 }

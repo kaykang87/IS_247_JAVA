@@ -15,6 +15,7 @@ public class FibonacciLab2 {
         System.out.println(fib(index));
     }
 
+    // Auxiliary method
     public static long fib(int index){
         if (index == 0){
             return 0;
@@ -25,6 +26,7 @@ public class FibonacciLab2 {
         }
     }
 
+    // tail recursion method
     public static long fib(int index, long a, long b){
         if (index == 0){
             return a;

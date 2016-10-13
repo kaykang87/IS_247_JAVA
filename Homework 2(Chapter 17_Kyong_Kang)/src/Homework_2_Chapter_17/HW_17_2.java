@@ -1,6 +1,5 @@
 package Homework_2_Chapter_17;
 
-import java.io.IOException;
 import java.io.*;
 
 /**
@@ -13,16 +12,19 @@ public class HW_17_2 {
     public static void main(String[] args) throws IOException{
         File f = new File("Exercise17_02.dat");
         boolean append = f.exists();
+        FileOutputStream fileWriter = new FileOutputStream(f, append);
+        BufferedOutputStream fileBuffer = new BufferedOutputStream(fileWriter);
+        DataOutputStream outputStream = new DataOutputStream(fileBuffer);
 
 
-        try (DataOutputStream outputStream =
-                     new DataOutputStream(
-                             new BufferedOutputStream(
-                                     new FileOutputStream(f, append)))){
+//        try (DataOutputStream outputStream =
+//                     new DataOutputStream(
+//                             new BufferedOutputStream(
+//                                     new FileOutputStream(f, append)))){
             for (int i=0;i<100;i++){
                 outputStream.write((int)(Math.random() * 100));
             }
-        }
+     //   }
     }
 }
 /**

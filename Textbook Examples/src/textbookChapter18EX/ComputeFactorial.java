@@ -17,10 +17,6 @@ public class ComputeFactorial {
         }
     }
 
-    public static long factorial2(int n) {
-        return n * factorial(n - 1);
-    }
-
     public static void main(String[] args) {
         // Create a Scanner
         Scanner input = new Scanner(System.in);
@@ -28,6 +24,6 @@ public class ComputeFactorial {
         int n = input.nextInt();
 
         // Display factorial
-        System.out.println("Factorial of " + n + " is " + factorial2(n));
+        System.out.println("Factorial of " + n + " is " + factorial(n));
     }
 }

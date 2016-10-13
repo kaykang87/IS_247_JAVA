@@ -1,0 +1,2 @@
+1 Bicycle: motorless vehicle 0.0 0 0 0
+Elantra: motor vehicle 0.0 Gas 1
