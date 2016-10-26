@@ -26,22 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="App_WildCard.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/Generics_Practice/App_WildCard.java">
+      <file leaf-file-name="App_ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/ArrayList_Practice/App_ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+            <state relative-caret-position="321">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#670#679#0" expanded="true" />
-                <element signature="e#877#885#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#280#0" expanded="true" />
+                <element signature="e#1294#1302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App_LinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/LinkedList_Practice/App_LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#882#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,9 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/textbookChapter12EX/WriteData.java" />
-        <option value="$PROJECT_DIR$/src/textbookChapter12EX/WriteDataWithAutoClose.java" />
-        <option value="$PROJECT_DIR$/src/textbookChapter12EX/ReadData.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter13EX/Fruits/Orange.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter13EX/Fruit/Apple.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter13EX/Fruit/Fruit.java" />
@@ -116,6 +119,9 @@
         <option value="$PROJECT_DIR$/src/textbookChapter19EX/Generics_Practice/App.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter19EX/Generics_Practice/App_Generics.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter19EX/Generics_Practice/App_WildCard.java" />
+        <option value="$PROJECT_DIR$/src/textbookChapter20EX/ArrayList_Practice/App_ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/Ch20_List_Stack_Queues/ArrayList_Practice/App_ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/Ch20_List_Stack_Queues/LinkedList_Practice/App_LinkedList.java" />
       </list>
     </option>
   </component>
@@ -151,6 +157,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,46 +189,9 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textbookChapter20EX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Textbook Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Textbook Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textbookChapter19EX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Textbook Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Textbook Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -230,7 +200,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -241,55 +211,15 @@
       <recent name="D:\Github\IS_247_JAVA\Textbook Examples\src\textbookChapter13EX\Fruit2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_WildCard">
-    <configuration default="false" name="TestArrayAndLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="textbookChapter20EX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="textbookChapter20EX.TestArrayAndLinkedList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Textbook Examples" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="textbookChapter20EX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="textbookChapter20EX.PriorityQueueDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Textbook Examples" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.App_LinkedList">
     <configuration default="false" name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="textbookChapter18EX.*" />
+          <option name="PATTERN" value="Ch18_Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="textbookChapter18EX.TowerOfHanoi" />
+      <option name="MAIN_CLASS_NAME" value="Ch18_Recursion.TowerOfHanoi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -305,11 +235,11 @@
     <configuration default="false" name="App_Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="textbookChapter19EX.Generics_Practice.*" />
+          <option name="PATTERN" value="Ch19_Generics.Generics_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="textbookChapter19EX.Generics_Practice.App_Generics" />
+      <option name="MAIN_CLASS_NAME" value="Ch19_Generics.Generics_Practice.App_Generics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,11 +255,51 @@
     <configuration default="false" name="App_WildCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="textbookChapter19EX.Generics_Practice.*" />
+          <option name="PATTERN" value="Ch19_Generics.Generics_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="textbookChapter19EX.Generics_Practice.App_WildCard" />
+      <option name="MAIN_CLASS_NAME" value="Ch19_Generics.Generics_Practice.App_WildCard" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Textbook Examples" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="App_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Ch20_List_Stack_Queues.ArrayList_Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Ch20_List_Stack_Queues.ArrayList_Practice.App_ArrayList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Textbook Examples" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="App_LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Ch20_List_Stack_Queues.LinkedList_Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Ch20_List_Stack_Queues.LinkedList_Practice.App_LinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -587,19 +557,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestArrayAndLinkedList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PriorityQueueDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TowerOfHanoi" />
-      <item index="3" class="java.lang.String" itemvalue="Application.App_Generics" />
-      <item index="4" class="java.lang.String" itemvalue="Application.App_WildCard" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TowerOfHanoi" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App_Generics" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App_WildCard" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App_ArrayList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.App_LinkedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App_WildCard" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App_Generics" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TowerOfHanoi" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PriorityQueueDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestArrayAndLinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.App_LinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App_ArrayList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App_WildCard" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App_Generics" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -636,6 +606,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33226427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -647,7 +618,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17288011" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33226427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -675,56 +645,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Orange.java" />
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit/Fruit2/kjh.java" />
     <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Orange.java" />
     <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Apple.java" />
     <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit.java" />
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Interfaces/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Interfaces/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Fruit2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter11EX/Faculty.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch11_Inheritance_Polymorphism/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit2/Fruit.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Fruit2/Fruit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit2/Apple.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Fruit2/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit2/Orange.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Fruit2/Orange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Fruit2/Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Fruit2/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -738,105 +706,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter11EX/CircleFromSimpleGeometricObject.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch11_Inheritance_Polymorphism/CircleFromSimpleGeometricObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter11EX/RectangleFromSimpleGeometricObject.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch11_Inheritance_Polymorphism/RectangleFromSimpleGeometricObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter11EX/SimpleGeometricObject.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch11_Inheritance_Polymorphism/SimpleGeometricObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/RecursiveBinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/RecursiveBinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/RecursivePalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/RecursivePalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1089">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/RecursiveSelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/RecursiveSelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/RecursivePalindromeUsingSubstring.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/RecursivePalindromeUsingSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/DirectorySize.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/DirectorySize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/ClassLab/FibonacciLab3.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/ClassLab/FibonacciLab3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/ComputeFibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/ComputeFibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/ComputeFactorialTailRecursion.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/ComputeFactorialTailRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter12EX/TestCircleWithException.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch12_exceptionHandling_TextInput_Output/TestCircleWithException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
           <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter12EX/WriteData.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch12_exceptionHandling_TextInput_Output/WriteData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/ClassLab/FactorialLab1.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/ClassLab/FactorialLab1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/ClassLab/FibonacciLab2.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/ClassLab/FibonacciLab2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
@@ -844,109 +812,108 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Exam1/Vehicle.java" />
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter13EX/Interfaces/InterFruit.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch13_Abstract_Interfaces/Interfaces/InterFruit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter12EX/QuotientWithException.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch12_exceptionHandling_TextInput_Output/QuotientWithException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/ComputeFactorial.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/ComputeFactorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/BoundedTypeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/BoundedTypeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2211">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/GenericMethodDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/GenericMethodDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/GeometricObject.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/GeometricObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2211">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
           <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/WildCardNeedDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/WildCardNeedDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter20EX/TestCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/TestCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter20EX/TestIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/TestIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter20EX/PriorityQueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/PriorityQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/GenericStack.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/GenericStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter20EX/TestArrayAndLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/TestArrayAndLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter18EX/TowerOfHanoi.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/TowerOfHanoi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,58 +921,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2031">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/Generics_Practice/App_Generics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#680#688#0" expanded="true" />
-            <element signature="e#992#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/Generics_Class_Example.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/Generics_Class_Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-190">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/AnyWildCardDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/AnyWildCardDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/Generics_Practice/App_Generics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textbookChapter19EX/Generics_Practice/App_WildCard.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch19_Generics/Generics_Practice/App_WildCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        <state relative-caret-position="804">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/ArrayList_Practice/App_ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#670#679#0" expanded="true" />
-            <element signature="e#877#885#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#280#0" expanded="true" />
+            <element signature="e#1294#1302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch20_List_Stack_Queues/LinkedList_Practice/App_LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#882#891#0" expanded="true" />
           </folding>
         </state>
       </provider>
