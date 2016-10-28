@@ -43,7 +43,7 @@ public class App_LinkedList {
 //        }
 
         // Time test of adding items 100 elements from the end
-        for(int i=0; i<1E5; i++){
+        for(int i=0; i<1E6; i++){
             list.add(list.size() - 100,i);              // Adding items at a hundred elements from the end
         }
         long end = System.currentTimeMillis();
