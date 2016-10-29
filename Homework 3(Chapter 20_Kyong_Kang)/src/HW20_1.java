@@ -12,7 +12,7 @@ public class HW20_1{
     public static void main(String[] args) {
         File file = new File("test.txt");
 
-        PriorityQueue<String> pQueue = new PriorityQueue<>(1000, String.CASE_INSENSITIVE_ORDER);
+        PriorityQueue<String> pQueue = new PriorityQueue<>(1000, String.CASE_INSENSITIVE_ORDER);      // Setting Priority Queue
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))){
             String line;

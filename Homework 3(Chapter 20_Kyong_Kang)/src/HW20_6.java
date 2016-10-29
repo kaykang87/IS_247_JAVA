@@ -33,7 +33,7 @@ public class HW20_6 {
         long startGet = System.currentTimeMillis();
         stopWatch.reset();
         stopWatch.start();
-        for (int i = 0; i < 5000000; i++) {
+        for (int i = 0; i < 5000; i++) {
             list.get(i);
         }
         stopWatch.stop();
