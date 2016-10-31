@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477d47b2-4beb-4c73-96eb-2afcb0056cef" name="Default" comment="Testing if Git is working with intellij">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/testingGIT.java" afterPath="" />
+    <list default="true" id="477d47b2-4beb-4c73-96eb-2afcb0056cef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Extra Credit(Even_Odd_Alphabets).iws" />
@@ -104,30 +103,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extra Credit(Even_Odd_Alphabets)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extra Credit(Even_Odd_Alphabets)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extra Credit(Even_Odd_Alphabets)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extra Credit(Even_Odd_Alphabets)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -137,7 +112,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
@@ -442,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477949125926</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed testing GIT">
+      <created>1477949239034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1477949239034</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,7 +471,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing if Git is working with intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing if Git is working with intellij" />
+    <MESSAGE value="Removed testing GIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed testing GIT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
