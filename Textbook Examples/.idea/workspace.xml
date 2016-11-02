@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc8debfa-df1b-4d70-ba35-6f1f96329295" name="Default" comment="Finished HashMap Practice">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_SortedMaps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Homework 4(Chapter 21_Kyong_Kang)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Homework 4(Chapter 21_Kyong_Kang)/.idea/workspace.xml" />
+    <list default="true" id="fc8debfa-df1b-4d70-ba35-6f1f96329295" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_Sets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Textbook Examples.iws" />
@@ -43,15 +42,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App_SortedMaps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App_SortedMaps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_SortedMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="269">
               <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#572#589#0" expanded="true" />
                 <element signature="e#845#862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App_Sets.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_Sets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/textbookChapter18EX/RecursivePalindrome.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter18EX/RecursivePalindromeUsingSubstring.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter18EX/RecursiveSelectionSort.java" />
         <option value="$PROJECT_DIR$/src/textbookChapter18EX/ClassLab/FactorialLab1.java" />
@@ -130,14 +141,14 @@
         <option value="$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_Map.java" />
         <option value="$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_HashMap.java" />
         <option value="$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_SortedMaps.java" />
+        <option value="$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_Sets.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="2762" />
-    <option name="height" value="1770" />
+    <option name="x" value="-11" />
+    <option name="width" value="1390" />
+    <option name="height" value="1755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -190,27 +201,7 @@
       <recent name="D:\Github\IS_247_JAVA\Textbook Examples\src\textbookChapter13EX\Fruit2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_SortedMaps">
-    <configuration default="false" name="TestCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Ch20_List_Stack_Queues_Iterators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Ch20_List_Stack_Queues_Iterators.TestCollection" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Textbook Examples" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.App_Sets">
     <configuration default="false" name="CountKeywords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -279,6 +270,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Ch21_Sets_Maps.map_practice.App_SortedMaps" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Textbook Examples" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="App_Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Ch21_Sets_Maps.map_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Ch21_Sets_Maps.map_practice.App_Sets" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -536,19 +547,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestCollection" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CountKeywords" />
-      <item index="2" class="java.lang.String" itemvalue="Application.App_Map" />
-      <item index="3" class="java.lang.String" itemvalue="Application.App_HashMap" />
-      <item index="4" class="java.lang.String" itemvalue="Application.App_SortedMaps" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CountKeywords" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App_Map" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App_HashMap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App_SortedMaps" />
+      <item index="4" class="java.lang.String" itemvalue="Application.App_Sets" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App_SortedMaps" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App_HashMap" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App_Map" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CountKeywords" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestCollection" />
+        <item index="0" class="java.lang.String" itemvalue="Application.App_Sets" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App_SortedMaps" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App_HashMap" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App_Map" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CountKeywords" />
       </list>
     </recent_temporary>
   </component>
@@ -573,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478052203443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learned differences among maps">
+      <created>1478053078806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478053078806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
+    <frame x="-11" y="0" width="1390" height="1755" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -587,7 +605,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13020489" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13150868" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -647,7 +665,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished HashMap Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished HashMap Practice" />
+    <MESSAGE value="Learned differences among maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned differences among maps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,7 +682,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ch11_Inheritance_Polymorphism/RectangleFromSimpleGeometricObject.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch11_Inheritance_Polymorphism/SimpleGeometricObject.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/RecursiveBinarySearch.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch18_Recursion/RecursivePalindrome.java" />
@@ -882,12 +900,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_SortedMaps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="269">
           <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#572#589#0" expanded="true" />
             <element signature="e#845#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch21_Sets_Maps/map_practice/App_Sets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
