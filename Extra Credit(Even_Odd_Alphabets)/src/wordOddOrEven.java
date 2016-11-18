@@ -9,7 +9,6 @@
  * Even # of Vowels in a word will always return the word as EVEN because
  * ODD + ODD = EVEN
  */
-
 import java.util.*;
 
 public class wordOddOrEven {
