@@ -20,8 +20,10 @@ public class QuickSort {
     quickSort(intArray, 0, intArray.length - 1);
   }
 
+  // left = first index
+  // right = last index
   public static void quickSort(int[] intArray, int left, int right) {
-    int size = right - left + 1;
+    int size = right - left + 1;                                      // size = 9-0+1 = 10
     if (size <= 3)
       manualSort(intArray, left, right);
     else {
@@ -33,7 +35,7 @@ public class QuickSort {
   }
 
   public static int medianOf3(int[] intArray, int left, int right) {
-    int center = (left + right) / 2;
+    int center = (left + right) / 2;                              // Finding median value
 
     if (intArray[left] > intArray[center])
       swap(intArray, left, center);
@@ -48,6 +50,9 @@ public class QuickSort {
     return intArray[right - 1];
   }
 
+  /**
+   * Method to swap values
+   */
   public static void swap(int[] intArray, int dex1, int dex2) {
     int temp = intArray[dex1];
     intArray[dex1] = intArray[dex2];
