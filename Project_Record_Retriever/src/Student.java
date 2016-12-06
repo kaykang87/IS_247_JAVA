@@ -15,14 +15,22 @@ public class Student {
         this.currentStanding = "defaultCurrentStanding";
         this.email = "defaultEmail";
         this.phoneNumber = "301-123-4567";
+        this.totalCredits = 12;
     }
 
-    public Student(String name, String studentId, String currentStanding, String email, String phoneNumber) {
+    public Student(String name, String studentId) {
+        this.name = name;
+        this.studentId = studentId;
+    }
+
+    public Student(String name, String studentId, String currentStanding, String email, String phoneNumber,
+                   int totalCredits) {
         this.name = name;
         this.studentId = studentId;
         this.currentStanding = currentStanding;
         this.email = email;
         this.phoneNumber = phoneNumber;
+        this.totalCredits = totalCredits;
     }
 
     public String getName() {

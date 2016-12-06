@@ -23,5 +23,6 @@ public class GPA {
 }
 
 //add method to calculate currentGPA
-
+//public double currentGPA
 //add method to calculate cumulativeGPA
+//public double cumulativeGPA
