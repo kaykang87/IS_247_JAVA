@@ -18,11 +18,6 @@ public class Student {
         this.totalCredits = 12;
     }
 
-    public Student(String name, String studentId) {
-        this.name = name;
-        this.studentId = studentId;
-    }
-
     public Student(String name, String studentId, String currentStanding, String email, String phoneNumber,
                    int totalCredits) {
         this.name = name;
