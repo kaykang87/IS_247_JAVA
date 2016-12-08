@@ -15,9 +15,6 @@ public class Student extends Identification {
 
     // Default Student constructor
     public Student() {
-        this.firstName = "FirstName";
-        this.lastName = "LastName";
-        this.studentId = "AA00000";
         this.email = "default@umbc.edu";
         this.classification = "Freshman";
         this.phoneNumber = "3011234567";

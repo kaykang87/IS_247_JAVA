@@ -18,9 +18,6 @@ public class Main {
         System.out.println("Please enter directory location: "); // Gets directory location for the student files
         String directoryLoc = input.nextLine();
 
-        //Test directory
-        //String directoryLoc = "N:/Users/New folder/My Documents/School/College/IS247/GroupProject/Records/";
-
         File folder = new File(directoryLoc); // Get folder than holds files
         File[] lof = folder.listFiles(); // Get an array of the files in the folder
 
@@ -53,9 +50,9 @@ public class Main {
             }
         } catch (FileNotFoundException e) {
         System.out.println("Error: " + e); // Display error message for FileNotFoundException
-        System.out.println("File was not found.");
+        System.out.println("File was not found or sub-directories exist.");
         System.exit(1);
-    } catch (Exception e) {
+        } catch (Exception e) {
         System.out.println("Error: " + e); // Display generic error message
         System.exit(1);
     }
@@ -95,6 +92,16 @@ public class Main {
                         int totalCredits = input.nextInt();
                         System.out.println("Please enter student's current credit amount: "); // Get current semester credits
                         int currentCredits = input.nextInt();
+
+                        // Checks to make sure that current credits is not less than 0 or greater than max 18
+                        if (currentCredits < 0) {
+                            System.out.println("Current credits can not be negative. Setting to 0.");
+                            currentCredits = 0;
+                        } else if (currentCredits > 18) {
+                            System.out.println("Current credits can not exceed 18. Setting to 18.");
+                            currentCredits = 18;
+                        }
+
                         System.out.println("Please enter student's current GPA: "); // Get current GPA
                         double currentGPA = input.nextDouble();
                         System.out.println("Please enter student's current balance: "); // Get current balance
@@ -154,7 +161,7 @@ public class Main {
                         System.out.println("\nCreated new record\n");
                         break;
 
-                    //
+                    // Case 2 handles editing the student records
                     case 2:
                         System.out.println("Choose which student record to edit: ");
                         System.out.println("0: Cancel");
@@ -164,9 +171,14 @@ public class Main {
                                     studentList.get(i).getLastName());
                         }
                         int studentChoice = input.nextInt();
+                        if (studentChoice == 0) {
+                            break;
+                        }
 
                         // do-while loop for menu
                         do {
+                            System.out.println("Editing: " + studentList.get(studentChoice - 1).getFirstName() +
+                            " " + studentList.get(studentChoice - 1).getLastName());
                             System.out.println("What would you like to edit: ");
                             System.out.println("0. Exit");
                             System.out.println("1. Name");
@@ -265,6 +277,8 @@ public class Main {
 
                                 // Case 5: Edits student's total number of credits; either add or subtract; find class
                                 case 5:
+                                    System.out.println("Total Credits: " + studentList.get(studentChoice -
+                                            1).getTotalCredits());
                                     System.out.println("Choose an option: ");
                                     System.out.println("0: Cancel");
                                     System.out.println("1: Add credits");
@@ -296,6 +310,8 @@ public class Main {
 
                                 // Case 6: Edits student's current number of credits; either add or subtract
                                 case 6:
+                                    System.out.println("Current Credits: " + studentList.get(studentChoice -
+                                            1).getCurrentCredits());
                                     System.out.println("Choose an option: ");
                                     System.out.println("0: Cancel");
                                     System.out.println("1: Add credits");
@@ -373,7 +389,7 @@ public class Main {
                                     break;
 
                                 default:
-                                    System.out.println("\nError: input does not match menu options. Try again.");
+                                    System.out.println("Error: input does not match menu options. Try again.");
                                     break;
                             }
                         }while (studentChoice != 0);
@@ -397,13 +413,12 @@ public class Main {
                         }
                         break;
 
-                    // Case 4: Requests user to input directory location where they wish for the files to be uploaded
-                    // from the specified directory
+                    // Case 4: Requests user to input directory location to upload a file
                     case 4:
                         System.out.println("Please enter record location: ");
+
                         Scanner newInput = new Scanner(System.in);
                         String recordLoc = newInput.nextLine();
-                        //String recordLoc = "N:/Users/New folder/Downloads/New folder/";
 
                         File newFolder = new File(recordLoc); // Get folder than holds files
                         File[] newLOF = newFolder.listFiles(); // Get an array of the files in the folder
@@ -459,11 +474,12 @@ public class Main {
                                 br2.close();
                             }
                         } catch (FileNotFoundException e) {
-                            System.out.println("File not Found: " + e); // Display error message for FileNotFoundException
-                        } catch (IOException e) {
-                            System.out.println("IOException: " + e); // Display error message for IOException
-                        } catch (NullPointerException e) {
-                            System.out.println("Null Pointer Exception: " + e); // Display error message for NullPointerException
+                            System.out.println("Error: " + e); // Display error message for FileNotFoundException
+                            System.out.println("File was not found or sub-directories exist.");
+                            System.exit(1);
+                        } catch (Exception e) {
+                            System.out.println("Error: " + e); // Display generic error message
+                            System.exit(1);
                         }
                         break;
 
@@ -484,6 +500,8 @@ public class Main {
                             if (new File(directoryLoc + studentList.get(delChoice - 1).getFirstName() +
                                     studentList.get(delChoice - 1).getLastName() + ".txt").delete()) {
                                 studentList.remove(delChoice - 1);
+                                gpaList.remove(delChoice - 1);
+                                tuitionList.remove(delChoice - 1);
                                 System.out.println("Record deleted.");
                             } else {
                                 System.out.println("Record failed to delete.");
@@ -494,15 +512,17 @@ public class Main {
 
                     // Default case: display message to handle integers outside of cases
                     default:
-                        System.out.println("\nError: input does not match menu options. Try again.");
+                        System.out.println("Error: input does not match menu options. Try again.");
                         break;
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Invalid Input: " + e); // Display error message for InputMismatch Exception
-                userInput = 0; // Change userInput to 0 to exit program
-            } catch (IOException e) {
-                System.out.println("Error: " + e); // Display error message for IOException
-                userInput = 0; // Change userInput to 0 to exit program
+                System.exit(1);
+                userInput = 0;
+            } catch (Exception e) {
+                System.out.println("Error: " + e); // Display generic error message
+                System.exit(1);
+                userInput = 0;
             }
         } while (userInput != 0); // Exit loop when user enters 0
     }

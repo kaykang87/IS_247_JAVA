@@ -21,12 +21,12 @@ public class GPA extends Identification {
         this.currentGPA = currentGPA;
     }
 
-    // cumulativeGPA getter
+    // currentGPA getter
     public double getCurrentGPA() {
         return this.currentGPA;
     }
 
-    // cumulativeGPA setter
+    // currentGPA setter
     public void setCurrentGPA(double currentGPA) {
         this.currentGPA = currentGPA;
     }
@@ -59,7 +59,7 @@ public class GPA extends Identification {
     // Override toString method
     @Override
     public String toString() {
-        return "Cumulative GPA: " + this.currentGPA;
+        return "Current GPA: " + this.currentGPA;
     }
 }
 

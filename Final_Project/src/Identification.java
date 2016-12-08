@@ -12,6 +12,19 @@ public class Identification {
     protected String lastName;
     protected String studentId;
 
+    // Default Identification constructor
+    public Identification() {
+        this.firstName = "firstName";
+        this.lastName = "lastName";
+        this.studentId = "AA00000";
+    }
+
+    // Identification constructor for existing or new students
+    public Identification (String firstName, String lastName, String studentId) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.studentId = studentId;
+    }
 
     // firstName getter
     public String getFirstName() {

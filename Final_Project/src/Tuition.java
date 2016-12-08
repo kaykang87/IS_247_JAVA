@@ -7,14 +7,13 @@
 // Tuition extends Identification
 public class Tuition extends Identification {
 
-    private double tuition;
     private double balance;
     private boolean inState;
 
     // Default Tuition constructor
     public Tuition() {
-        this.tuition = 0.0;
         this.balance = 0.0;
+        this.inState = true;
     }
 
     // Tuition constructor for existing and new students
@@ -23,16 +22,6 @@ public class Tuition extends Identification {
         this.lastName = lastName;
         this.balance = balance;
         this.inState = inState;
-    }
-
-    // tuition getter
-    public double getTuition() {
-        return this.tuition;
-    }
-
-    // tuition setter
-    public void setTuition(double tuition) {
-        this.tuition = tuition;
     }
 
     // balance getter
@@ -63,6 +52,7 @@ public class Tuition extends Identification {
 
     // Method to determine tuition
     public double calculateTuition(boolean inState, int credit) {
+        double tuition;
 
         if (inState) {
             if (credit >= 12) {
